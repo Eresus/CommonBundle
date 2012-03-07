@@ -26,7 +26,7 @@ class CommonBundle extends Bundle
 	 *
 	 * @since 1.0
 	 */
-	public function boot()
+	public function __construct()
 	{
 		// Задаём уникальное имя, чтобы избежать конфликта с другими пакетами
 		$this->name = 'EresusCommonBundle';
