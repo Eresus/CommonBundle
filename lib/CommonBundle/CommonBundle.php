@@ -17,9 +17,19 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * Классы общего назначения
  *
  * @package CommonBundle
+ * @since 1.0
  */
 class CommonBundle extends Bundle
-// @codeCoverageIgnoreStart
 {
+	/**
+	 * Конструктор
+	 *
+	 * @since 1.0
+	 */
+	public function boot()
+	{
+		// Задаём уникальное имя, чтобы избежать конфликта с другими пакетами
+		$this->name = 'EresusCommonBundle';
+	}
+	//-----------------------------------------------------------------------------
 }
-// @codeCoverageIgnoreEnd
