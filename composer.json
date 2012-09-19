@@ -9,5 +9,5 @@
             "email": "mihalych@vsepofigu.ru"
         }
     ],
-    "autoload": {"psr-0": {"Eresus/CommonBundle": "lib/"}}
+    "autoload": {"psr-0": {"Eresus\\CommonBundle": "lib/"}}
 }
