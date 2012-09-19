@@ -1,0 +1,12 @@
+{
+    "name": "eresus/common-bundle",
+    "description": "Классы общего назначения для приложений на основе Symfony2",
+    "authors":
+    [
+        {
+            "name": "Михаил Красильников",
+            "email": "mihalych@vsepofigu.ru"
+        }
+    ],
+    "autoload": {"psr-0": {"Eresus/CommonBundle": "lib/"}}
+}
