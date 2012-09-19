@@ -1,5 +1,6 @@
 {
     "name": "eresus/common-bundle",
+    "type" : "library",
     "description": "Классы общего назначения для приложений на основе Symfony2",
     "authors":
     [
